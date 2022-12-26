@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-  mongoose.connect(process.env.mongoose, {
+  mongoose.connect("mongodb+srv://min:min@mina.sp6hk4x.mongodb.net/?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => {
